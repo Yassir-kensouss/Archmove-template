@@ -1,0 +1,24 @@
+{
+  "name": "Archmove-template",
+  "version": "1.0.0",
+  "description": "Archmove - architech marketplace template using tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"tailwindcss build tailwindcss/styles.css -o style/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yassir-kensouss/Archmove-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yassir-kensouss/Archmove-template/issues"
+  },
+  "homepage": "https://github.com/Yassir-kensouss/Archmove-template#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "tailwindcss": "^2.0.2"
+  }
+}
