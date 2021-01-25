@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archmove</title>
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body class="font-body" id="my-scrollbar">
+    <!-- Navigation -->
+    <header>
+      <div class="px-8">
+        <div class="nav-container justify-between flex py-8">
+          <!-- logo container -->
+          <div class="arch-logo">
+            <img
+              src="img/logo-arch.png"
+              alt="archmove logo"
+              title="archmove logo"
+            />
+          </div>
+          <!-- hidden navigation -->
+          <div class="hidden-nav-wrapper">
+            <!-- navigation container -->
+            <div class="nav-wrapper md:pl-12">
+              <nav>
+                <ul class="nav-list md:flex">
+                  <li class="nav-item md:pr-6">
+                    <a
+                      href="#"
+                      class="nav-link font-light hover:text-red-500 transition"
+                      >Design Gallery</a
+                    >
+                  </li>
+                  <li class="nav-item md:pr-6">
+                    <a
+                      href="#"
+                      class="nav-link font-light hover:text-red-500 transition"
+                      >List of Architect</a
+                    >
+                  </li>
+                  <li class="nav-item md:pr-6">
+                    <a
+                      href="#"
+                      class="nav-link font-light hover:text-red-500 transition"
+                      >Articles</a
+                    >
+                  </li>
+                  <li class="nav-item md:pr-6">
+                    <a
+                      href="#"
+                      class="nav-link font-light hover:text-red-500 transition"
+                      >How it Works</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- navigation call to action container -->
+            <div class="nav-cta">
+              <a
+                href="#"
+                class="signIn font-light md:pr-6 hover:text-red-500 transition block md:inline-block text-white md:text-gray-900"
+                >Sign In</a
+              >
+              <a
+                href="#"
+                class="signUp btn-small font-light block md:inline-block"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+          <!-- humberger menu -->
+          <div class="humberger-menu-wrapper md:hidden z-20">
+            <button
+              class="menu-btn outline-none"
+              aria-label="show menu"
+              id="menu-btn"
+            >
+              <div class="humberger">
+                <div class="line line1 line-bg"></div>
+                <div class="sm-line line2 line-bg"></div>
+                <div class="line line3 line-bg"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main section -->
+    <main>
+      <!-- hero section -->
+      <section class="hero py-5">
+        <div class="container">
+          <h1 class="font-headings text-6xl 2xl:text-9xl">
+            Build Your
+            <span class="block">
+              Dream <span class="text-red-500">House</span>
+            </span>
+          </h1>
+          <div class="hero-content-wapper py-5">
+            <figure>
+              <div class="grid lg:grid-cols-3">
+                <div class="hero-content pb-10 lg:pr-12">
+                  <figcaption>
+                    <p class="pb-5 leading-7 2xl:text-2xl 2xl:leading-8">
+                      The first and most trusted marketplace of design & build
+                      house in The World. 100% guaranteed Build safe,
+                      comfortable and transparent with a project management for
+                      the best result
+                    </p>
+                    <a href="#" class="btn hover:bg-red-600"
+                      >Free Consultation</a
+                    >
+                  </figcaption>
+                </div>
+                <div class="hero-bg lg:col-span-2">
+                  <img
+                    src="img/hero-content-bg.jpg"
+                    class="w-full"
+                    alt="hero content bg"
+                  />
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- our product slideshow -->
+      <section class="product-slide pt-10">
+        <!-- container -->
+        <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-10">
+            <div class="heading-wrapper lg:col-start-2 lg:col-end-3">
+              <h2 class="Slevel-heading mb-2">
+                Build professional valuable room for you
+              </h2>
+            </div>
+            <div class="prev-next-wrapper flex md:justify-end">
+              <!-- Add Arrows -->
+              <div
+                class="swiper-button-prev swiper-button hover:text-red-500 hover:bg-gray-100 transitions"
+              >
+                <button class="outline-none">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+              </div>
+              <div
+                class="swiper-button-next swiper-button hover:text-red-500 hover:bg-gray-100 transitions"
+              >
+                <button class="outline-none">
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper -->
+        <div class="2xl:container">
+          <div class="swiper-container product-slider">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="img/img-01.jpg" class="w-full" alt="product 1" />
+              </li>
+              <li class="swiper-slide">
+                <img src="img/img-02.jpg" class="w-full" alt="product 1" />
+              </li>
+              <li class="swiper-slide">
+                <img src="img/img-03.jpg" class="w-full" alt="product 1" />
+              </li>
+              <li class="swiper-slide">
+                <img src="img/img-01.jpg" class="w-full" alt="product 1" />
+              </li>
+              <li class="swiper-slide">
+                <img src="img/img-02.jpg" class="w-full" alt="product 1" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- our service -->
+      <section class="our-features py-20">
+        <div class="container">
+          <h2 class="Slevel-heading pb-10">
+            Build your needs <span class="block"> with Archmove</span>
+          </h2>
+          <div class="features-content-wrapper grid grid-cols-1 lg:grid-cols-2">
+            <div class="features-avatar">
+              <img
+                src="img/img-5.jpg"
+                alt="features avatar"
+                title="features avatar"
+              />
+            </div>
+            <div class="features-content lg:pl-20 pt-5">
+              <ul class="features-list">
+                <!-- features  -->
+                <li class="feature-item flex mb-10">
+                  <div class="feature-icon">
+                    <img
+                      src="img/feature_icon1.png"
+                      alt="icon feature"
+                      title="icon feature"
+                    />
+                  </div>
+                  <div class="feature-content flex-1 px-5">
+                    <h4 class="font-semibold mb-5 2xl:text-3xl">
+                      100% guaranteed project completion
+                    </h4>
+                    <p>
+                      Build safe, comfortable and transparent with a project
+                      management application with a joint account.
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item flex mb-10">
+                  <div class="feature-icon">
+                    <img
+                      src="img/feature_icon2.png"
+                      alt="icon feature"
+                      title="icon feature"
+                    />
+                  </div>
+                  <div class="feature-content flex-1 px-5">
+                    <h4 class="font-semibold mb-5 2xl:text-3xl">
+                      100% guaranteed project completion
+                    </h4>
+                    <p>
+                      Build safe, comfortable and transparent with a project
+                      management application with a joint account.
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item flex">
+                  <div class="feature-icon">
+                    <img
+                      src="img/feature_icon3.png"
+                      alt="icon feature"
+                      title="icon feature"
+                    />
+                  </div>
+                  <div class="feature-content flex-1 px-5">
+                    <h4 class="font-semibold mb-5 2xl:text-3xl">
+                      100% guaranteed project completion
+                    </h4>
+                    <p>
+                      Build safe, comfortable and transparent with a project
+                      management application with a joint account.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <a href="#" class="btn uppercase mt-5 hover:bg-red-600 ml-14"
+                >FREE CONSULTATION</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonials -->
+      <section class="testimonials py-20 bg-gray-50">
+        <div class="container">
+          <h2 class="Slevel-heading pb-10">
+            Sound Too Good <span class="block">To Be True?</span>
+          </h2>
+          <div class="testimonial-wrapper">
+            <div class="swiper-container testimonials-slider">
+              <!-- testimonial list -->
+              <ul class="swiper-wrapper">
+                <!-- testimonial-item -->
+                <li class="swiper-slide lg:pl-44">
+                  <div class="blockquote-wrapper flex">
+                    <div class="quote-icon">
+                      <img src="img/quote.png" class="w-10" alt="quote icon" />
+                    </div>
+                    <div class="blockquote-content flex-1">
+                      <blockquote class="leading-8 font-light pl-10">
+                        We just wanted to thank you for this fantastic website!
+                        We are so grateful for being able to advertise our
+                        Petite cabin and receive feedback from people from all
+                        over the U.S. and even further.
+                        <p class="credit py-5">
+                          <cite class="font-semibold">Adam Morph</cite
+                          ><span aria-hidden="true" class="mx-2">—</span>CEO
+                          Alfatech
+                        </p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide lg:pl-44">
+                  <div class="blockquote-wrapper flex">
+                    <div class="quote-icon">
+                      <img src="img/quote.png" class="w-10" alt="quote icon" />
+                    </div>
+                    <div class="blockquote-content flex-1">
+                      <blockquote class="leading-8 font-light pl-10">
+                        We just wanted to thank you for this fantastic website!
+                        We are so grateful for being able to advertise our
+                        Petite cabin and receive feedback from people from all
+                        over the U.S. and even further.
+                        <p class="credit py-5">
+                          <cite class="font-semibold">Adam Morph</cite
+                          ><span aria-hidden="true" class="mx-2">—</span>CEO
+                          Alfatech
+                        </p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide lg:pl-44">
+                  <div class="blockquote-wrapper flex">
+                    <div class="quote-icon">
+                      <img src="img/quote.png" class="w-10" alt="quote icon" />
+                    </div>
+                    <div class="blockquote-content flex-1">
+                      <blockquote class="leading-8 font-light pl-10">
+                        We just wanted to thank you for this fantastic website!
+                        We are so grateful for being able to advertise our
+                        Petite cabin and receive feedback from people from all
+                        over the U.S. and even further.
+                        <p class="credit py-5">
+                          <cite class="font-semibold">Adam Morph</cite
+                          ><span aria-hidden="true" class="mx-2">—</span>CEO
+                          Alfatech
+                        </p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide lg:pl-44">
+                  <div class="blockquote-wrapper flex">
+                    <div class="quote-icon">
+                      <img src="img/quote.png" class="w-10" alt="quote icon" />
+                    </div>
+                    <div class="blockquote-content flex-1">
+                      <blockquote class="leading-8 font-light pl-10">
+                        We just wanted to thank you for this fantastic website!
+                        We are so grateful for being able to advertise our
+                        Petite cabin and receive feedback from people from all
+                        over the U.S. and even further.
+                        <p class="credit py-5">
+                          <cite class="font-semibold">Adam Morph</cite
+                          ><span aria-hidden="true" class="mx-2">—</span>CEO
+                          Alfatech
+                        </p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="prev-next-wrapper flex justify-end">
+                <!-- Add Arrows -->
+                <div
+                  class="swiper-button-prev swiper-button hover:text-red-500 hover:bg-gray-200 transitions"
+                >
+                  <button class="outline-none">
+                    <i class="fas fa-arrow-left"></i>
+                  </button>
+                </div>
+                <div
+                  class="swiper-button-next swiper-button hover:text-red-500 hover:bg-gray-200 transitions"
+                >
+                  <button class="outline-none">
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action  -->
+      <section class="cta bg-gray-50">
+        <div class="container">
+          <div class="cta-wrapper grid grid-cols-1 lg:grid-cols-2">
+            <div class="cta-avatar">
+              <img
+                src="img/cta-avatar.png"
+                alt="cta avatar"
+                title="cta avatar"
+                class="w-full"
+              />
+            </div>
+            <div
+              class="cta-content text-center lg:text-left py-10 lg:pl-10 self-center"
+            >
+              <h2 class="Slevel-heading mb-10">
+                Realize your dream
+                <span class="block"
+                  >project with <span class="text-red-500">Archmove</span></span
+                >
+              </h2>
+              <a href="#" class="btn uppercase hover:bg-red-600"
+                >FREE CONSULTATION</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our partner -->
+      <section class="our-partner bg-gray-50 py-10">
+        <div class="container">
+          <h2 class="Slevel-heading">Our Partners</h2>
+          <div class="partners grid grid-cols-2 lg:grid-cols-5 items-center">
+            <div class="partner1 place-self-center">
+              <img src="img/partener1.png" alt="partner logo name" />
+            </div>
+            <div class="partner2 place-self-center">
+              <img src="img/partner2.png" alt="partner logo name" />
+            </div>
+            <div class="partner3 place-self-center">
+              <img src="img/partner3.png" alt="partner logo name" />
+            </div>
+            <div class="partner4 place-self-center">
+              <img src="img/partner4.png" alt="partner logo name" />
+            </div>
+            <div class="partner5 place-self-center">
+              <img src="img/partner5.png" alt="partner logo name" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="border-t-2 bg-gray-50 py-10">
+      <div class="container">
+        <div
+          class="footer-content-wrapper lg:flex lg:justify-between items-center"
+        >
+          <nav>
+            <ul class="nav-list text-center lg:flex">
+              <li class="nav-item p-2 hover:text-red-500 transition">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item p-2 hover:text-red-500 transition">
+                <a href="#" class="nav-link">How it Works</a>
+              </li>
+              <li class="nav-item p-2 hover:text-red-500 transition">
+                <a href="#" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item p-2 hover:text-red-500 transition">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item p-2 hover:text-red-500 transition">
+                <a href="#" class="nav-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-logo">
+            <img
+              src="img/logo-arch.png"
+              class="pt-10 lg:pt-0 mx-auto"
+              alt="arch logo"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="node_modules/swiper/swiper-bundle.js"></script>
+    <script src="node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>

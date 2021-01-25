@@ -4,7 +4,7 @@
   "description": "Archmove - architech marketplace template using tailwind",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwindcss build tailwindcss/styles.css -o style/styles.css"
+    "build-css": "tailwindcss build tailwindcss/styles.css -o style/styles.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Yassir-kensouss/Archmove-template#readme",
   "dependencies": {
     "autoprefixer": "^10.2.3",
+    "smooth-scrollbar": "^8.5.3",
+    "swiper": "^6.4.8",
     "tailwindcss": "^2.0.2"
   }
 }
